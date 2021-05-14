@@ -6,7 +6,7 @@
         "node": true,
         "mocha":true,
         "jasmine":true,
-        "jquery": false
+        "jquery": true
                 
     },
     "extends": "eslint:recommended",
