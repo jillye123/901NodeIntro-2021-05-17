@@ -36,7 +36,7 @@ Sometimes, you may accidentally run a command and modify a lot of files you did 
     It is a good practice to match to the info you would use on a remote repository, such as  GitHub, but it is not required.
 
 3. To set up your personal git username and email idenitifers, use these commands - replacing **John Doe** inside the quotes with your name and **johndoe@example.com** with your email. Again, these are global settings so you can be in any directory.
-
+v
     ![config global](../screenshots/git-config-global.png)
 
 4. Do the following to create a branch in which to do your work.
