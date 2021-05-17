@@ -86,7 +86,7 @@ Make sure you are in your branch of the project
 2.  Inside your new **_my_info.txt** file, add your name. 
 
 
-3.  Click on the Source Control button to open the panel `Source Control`. In this panel, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added to `Staged Changes`
+3.  Click on thse Source Control button to open the panel `Source Control`. In this panel, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added to `Staged Changes`
 
     ![Use control+shift+v to Turn on Preview Mode](../screenshots/git-vscode-stage-readme.png)
 
