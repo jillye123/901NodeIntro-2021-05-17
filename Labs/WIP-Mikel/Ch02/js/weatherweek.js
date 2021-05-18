@@ -1,10 +1,10 @@
 const tempsArray =
 [
-    { day: 'Monday', high: 80, low: 68},
-    { day: 'Tues', high: 89, low: 77},
-    { day: 'Wed', high: 69, low: 65},
-    { day: 'Thurs', high: 102, low: 90},
-    { day: 'Fri', high: 83, low: 78}
+    { day: 'Monday', high: 66, low: 50},
+    { day: 'Tues', high: 74, low: 48},
+    { day: 'Wed', high: 71, low: 55},
+    { day: 'Thurs', high: 81, low: 69},
+    { day: 'Fri', high: 84, low: 61}
 ];
 
 let lowestDay = tempsArray[0];
