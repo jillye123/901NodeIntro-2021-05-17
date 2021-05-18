@@ -1,6 +1,6 @@
 const Band = require('./constructor-band');
 
-const beatles = new Band('The Beatles', ['John', 'Paul', 'George', 'Ringo']);
+const beatles = new Band('The Beatles', ['John', 'Paul', 'George', 'Ringo', 'William']);
 
 console.log(`beatles member count`, beatles.memberCount());
-console.log(`has Ringo?`, beatles.hasMember('Ringo'));
+console.log(`has Ringo?`, beatles.hasMember('Walker'));
