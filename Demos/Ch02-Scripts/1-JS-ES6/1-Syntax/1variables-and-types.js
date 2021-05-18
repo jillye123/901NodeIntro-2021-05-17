@@ -10,9 +10,9 @@
             x = true;  console.log(typeof x);
             
             let y;   console.log("typeof y is " + typeof y);
-            console.log("y is"  +  y)
+            console.log("y is "  +  y)
             y = null; console.log("typeof y is " + typeof y);
-            console.log("y is"  +  y)
+            console.log("y is "  +  y)
             console.groupEnd();
 
             //undefined and null
@@ -29,7 +29,7 @@
             let z = 3.13; console.log(typeof z);
             let divideByZero = (z/+0);  console.log('(z/+0)=' + divideByZero);
                 divideByZero = (z/-0);  console.log('(z/-0)=' +divideByZero);
-
+console.log('maxVal='+Number.MAX_VALUE+'; minVal='+Number.MIN_VALUE);
             let bigNum = Number.MAX_VALUE; 
             console.log(bigNum);
             let tryBigger = bigNum * 2; console.log("Too big? " + tryBigger);
