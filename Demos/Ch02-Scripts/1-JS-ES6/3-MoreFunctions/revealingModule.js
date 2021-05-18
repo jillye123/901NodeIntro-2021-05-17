@@ -13,7 +13,7 @@
                 showMessage: printMessage,
                 updateMessage: updateMessage
             }
-        }(); //← IIFE
+        }(); //← IIFE immedieatly invoke function expression
 
      messageUtility.showMessage();
      messageUtility.updateMessage('Changed it up a bit');

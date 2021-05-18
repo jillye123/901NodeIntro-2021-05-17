@@ -1,6 +1,6 @@
 
             function namedFunction(name) {
-                alert('namedFunction was passed:  '  + name );
+                console.log('namedFunction was passed:  '  + name );
             }
 
             namedFunction('Alice')
@@ -9,7 +9,7 @@
             anotherReferenceToFunction('Clarice');
 
             const anonFunction = function() {
-                alert('John Doe');
+                console.log('John Doe');
             }
 
             anonFunction();
