@@ -1,0 +1,15 @@
+{
+  "name": "timeexample",
+  "version": "1.0.0",
+  "description": "practice lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33"
+  }
+}
