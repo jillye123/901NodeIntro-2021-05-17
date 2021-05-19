@@ -1,0 +1,18 @@
+{
+  "name": "timeexample",
+  "version": "1.0.0",
+  "description": "an example for time",
+  "main": "index.js",
+  "scripts": {
+    "test": "timetest"
+  },
+  "keywords": [
+    "time",
+    "example"
+  ],
+  "author": "eddie neal",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
