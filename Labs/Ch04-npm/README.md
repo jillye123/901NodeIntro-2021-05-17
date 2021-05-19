@@ -7,7 +7,7 @@
 1. In your `\WIP` directory, create the directory structure `\WIP\Ch04\npm-with-package`
 
 1. Open a command prompt at that location (VS Code integrated terminal) and issue this command:
-`npm init`
+`npm initnpm`
 
 1. Go through the wizard to create a package.json. Call the project `timeexample`. Notice, and accept the other default values by hitting the Enter key. You can supply whatever info that you like. This is more for you to practice and see the outcome of the wizard.
 
