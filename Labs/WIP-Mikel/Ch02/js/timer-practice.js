@@ -1,5 +1,5 @@
 const timerId = setInterval(() => {
-    console.log('Hello')
+    console.log('Chill!!')
 }, 1000);
 
-setTimeout(() => { clearInterval(timerId); console.log('Finished!') }, 5000)
+setTimeout(() => { clearInterval(timerId); console.log('Done..Dude!') }, 5000)
