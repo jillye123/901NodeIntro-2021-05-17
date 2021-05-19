@@ -1,13 +1,13 @@
 
 const fs = require("fs");
 
-const wordCount = (string) => string.split(" ").length;
+const wordCount = (para) => para.split(' ');
 fs.readFile('input.txt', function (err, data) {
     if (err) {
         return console.error(err);
     }
     console.log('This was in the file input ', data.toString());
-    console.log('The number of words = ', wordCount(data));
+    console.log('The number of words = ', wordCount(data.toString()));
 });
 
 
