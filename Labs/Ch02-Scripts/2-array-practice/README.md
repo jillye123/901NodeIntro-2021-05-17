@@ -51,3 +51,4 @@
 1. Print the array, then sort by name in ascending order and print, and then sort by age in ascending order and print. Your output should look similar to the following.
 
   ![Open in Preview mode to see image](../../screenshots/2-sort-object-arrays.png)
+friends
