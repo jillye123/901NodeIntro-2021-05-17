@@ -47,7 +47,6 @@
             var scores = [1, 10, 21, 2]; 
             console.log(scores.sort()); 
             
-            
             // [1, 10, 2, 21]
             
             console.log(scores.sort( (a,b)=> {

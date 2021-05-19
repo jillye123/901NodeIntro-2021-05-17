@@ -2,7 +2,7 @@
 
 console.log("Hello");
 
-setTimeout(() => {
+setInterval(() => {
 	console.log("World!");
 }, 2000);
 

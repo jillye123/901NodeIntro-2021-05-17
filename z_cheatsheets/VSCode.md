@@ -9,7 +9,6 @@
    * control-shift-P   or  command-shift-P
 * Open integrated terminal window, Ctrl+`
 * open readme in format mode: control-shift-V
-
 ## Stopping servers
 * Ctrl-C kills process and leaves the terminal available
 * Trashcan kills process AND the window
