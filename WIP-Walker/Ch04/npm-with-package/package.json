@@ -1,0 +1,14 @@
+{
+  "name": "timeexample",
+  "version": "1.0.0",
+  "description": "class time project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Walker",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
