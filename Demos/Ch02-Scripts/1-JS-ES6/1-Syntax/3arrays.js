@@ -10,11 +10,11 @@
                 age: 45
             }
 
-           const oneArray = [1,2,3];
-           const secondArray = [1,2,3];
+            const oneArray = [1,2,3];
+            const secondArray = [1,2,3];
 
-           console.log(oneArray == secondArray)
-           console.log(typeof oneArray == typeof secondArray)
+            console.log(oneArray == secondArray)
+            console.log(typeof oneArray == typeof secondArray)
 
 
             const bands = [];
