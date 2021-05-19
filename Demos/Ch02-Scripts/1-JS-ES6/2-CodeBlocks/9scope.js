@@ -25,8 +25,8 @@
                     console.log( 'Inner ' + name6 ) ;
                 }
                 printName2() ;
-                // console.log( 'Inner ' + name7 ) ;  // uncommment to see error
-                // console.log( 'Inner ' + name8 ) ;  // uncommment to see error
+                 console.log( 'Inner ' + name7 ) ;  // uncommment to see error
+                console.log( 'Inner ' + name8 ) ;  // uncommment to see error
             }
             printName1() ;
        
