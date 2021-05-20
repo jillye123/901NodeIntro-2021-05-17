@@ -38,7 +38,24 @@ emitter.on('work', doWorkHandler2);
 emitter.on('work', doWorkHandler3);
 emitter.on('work', doWorkHandler4);
 
+let numCalled = 0;
+let timer1 = setInterval(function() {
+    //console.log(getRandomInt(1, 20));
+    if (getRandomInt(1, 20) == 11) {
+        emitter.emit('break');
+        numCalled++;
+        console.log(`11 was called ${numCalled}`);
+    }
+    
+}, 1000)
 
+setTimeout(() => clearTimeout(timer1), 10000);
+
+function getRandomInt (min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+}
 
 emitter.emit('work');
 emitter.emit('break');
