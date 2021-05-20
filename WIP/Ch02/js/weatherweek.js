@@ -26,3 +26,14 @@ let lowestTempDay = tempsArray.find(e => {
 console.log(`The lowest temperature this week is on ${lowestTempDay.day} and it was ${lowestTempDay.low}`);
 
 console.log(`The highest temperature this week is on ${highestTempDay.day} and it was ${highestTempDay.high}`);
+
+console.groupCollapsed("********** start sorting by low temperature ********** ");
+tempsArray.sort((a, b) => {
+    return a.low - b.low;
+});
+
+tempsArray.forEach(e => {
+    console.log(e);
+})
+
+console.groupEnd;
