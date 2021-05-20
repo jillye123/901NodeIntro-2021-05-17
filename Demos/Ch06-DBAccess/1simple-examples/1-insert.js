@@ -3,17 +3,17 @@ const knex = require("knex");
 let db = knex(require("../knexfile"));
 Promise.try(() => {
 	return db("people").insert([{
-		firstName: "Joe",
-		lastName: "Bloggs",
-		age: 42
+		firstName: "Geddy",
+		lastName: "Lee",
+		age: 20
 	}, {
-		firstName: "Joe",
-		lastName: "Smith",
-		age: 52
+		firstName: "Alex",
+		lastName: "Lifeson",
+		age: 22
 	}, {
-		firstName: "Beth",
-		lastName: "Smith",
-		age: 24
+		firstName: "Neil",
+		lastName: "Peart",
+		age: 21
 	}]);
 }).then(() => {
 	console.log("Done!");
