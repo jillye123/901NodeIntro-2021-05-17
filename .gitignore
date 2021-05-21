@@ -71,3 +71,11 @@ typings/
 
 # course dev
 z_Extras/
+
+package.json
+.gitignore
+node_modules
+build
+npm-debug.log
+.env
+.DS_Store
