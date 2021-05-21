@@ -1,15 +1,17 @@
 {
-  "name": "2promises",
+  "name": "CH06",
   "version": "1.0.0",
   "description": "",
-  "main": "axios.js",
+  "main": "database-practice.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "axios": "^0.21.1"
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "knex": "^0.95.6",
+    "pg": "^8.6.0"
   }
 }
